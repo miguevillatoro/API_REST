@@ -1,0 +1,63 @@
+nav {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo h1 {
+    font-size: 20px;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+}
+
+.categorias {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.categorias li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.buscador input[type="text"] {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.buscador button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.usuario a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+.bi-person-fill {
+    font-size: 25px;
+} 
+
+.bi-cart4 {
+    font-size: 25px;
+}

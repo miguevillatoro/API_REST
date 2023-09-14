@@ -1,0 +1,105 @@
+.footer-prin {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    justify-items: center;
+    padding: 40px 8px;
+    background-color: #e3ddff;
+    margin-top: 40px;
+
+}
+
+.categorias-footer {
+    flex: 0 0 auto;
+    margin-bottom: 30px;
+    max-width: 100%;
+    display: grid;
+}
+
+.title-fprin {
+    font-size: 20px;
+    color: #171427;
+    line-height: 1.8;
+}
+
+.title-secundario {
+    font-size: 15px;
+    color: #171427;
+    line-height: 1.8;
+}
+
+.categorias-contacto {
+    text-decoration: none;
+    color: #000;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.categorias-info {
+    text-decoration: none;
+    color: #000;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.categorias-info:hover {
+    color: #5a5a5a;
+}
+
+/* NUESTRAS TIENDAS */
+.title-tiendas {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle-tiendas {
+    font-weight: 600;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #171427;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.icon-bar {
+    top: 50%;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.icon-bar .selected {
+    color: #171427;
+    padding-right: 8px;
+}
+
+.divfooter {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-info {
+    letter-spacing: 0.05rem;
+}
+
+.dividerfooter {
+    height: 4px;
+    width: 400px;
+    background-color: #fff;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    align-content: center;
+}
+
+.material-icons {
+    color: var(--white-color);
+    padding-left: 20px;
+}

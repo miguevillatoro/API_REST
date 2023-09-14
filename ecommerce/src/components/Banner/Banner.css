@@ -1,0 +1,42 @@
+.header {
+    background: linear-gradient(to bottom, rgba(248, 139, 184, 0.2), rgba(0, 0, 0, 0.3)), url('src/img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    height: 100vh;
+}
+
+.header-content {
+    display: flex;
+    justify-content: left;
+    padding-left: 45px;
+    align-items: center;
+    height: 100%;
+}
+
+.left-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.left-content h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.left-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.explore-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
