@@ -8,6 +8,7 @@ import Products from "./components/Products/Products";
 import Product from "./components/Product/Product";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
+import ProductDetails from "./pages/ProductDetails";
 import "./app.css";
 
 const Layout = () => {
@@ -36,6 +37,10 @@ const router = createBrowserRouter ([
       {
         path:"/product/:id",
         element:<Product/>
+      },
+      {
+        path:"/productdetails",
+        element:<ProductDetails/>
       },
     ]
   },
