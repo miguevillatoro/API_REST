@@ -1,0 +1,92 @@
+.text {
+    padding: 40px;
+    background: #eee;
+}
+
+.text h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.publicidad-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.publicidad-container .publicidad {
+    background: linear-gradient(-55deg, #4DB7E8 29%, #208ABB 29.1%, #208ABB 68%, #4DB7E8 68.1%);
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 10px #0005;
+    overflow: hidden;
+}
+
+.publicidad-container .publicidad .shoe {
+    flex: 1 1 250px;
+    padding: 15px;
+    text-align: center;
+}
+
+.publicidad-container .publicidad .shoe img {
+    width: 80%;
+}
+
+.publicidad-container .publicidad .content-publicidad {
+    flex: 1 1 250px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.publicidad-container .publicidad .content-publicidad span {
+    color: #eee;
+    font-size: 25px;
+}
+
+.publicidad-container .publicidad .content-publicidad h3 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.publicidad-container .publicidad .content-publicidad p {
+    color: #eee;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.publicidad-container .publicidad .content-publicidad .btn {
+    display: block;
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+    background: #fff;
+    color: #d63031;
+    font-weight: bold;
+    margin: 5px auto;
+    text-decoration: none;
+}
+
+.publicidad-container .publicidad .women {
+    position: relative;
+    bottom: -33px;
+    padding: 10px;
+    flex: 1 1 250px;
+}
+
+.publicidad-container .publicidad .women img {
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    .publicidad-container .publicidad .women {
+        display: none;
+    }
+}

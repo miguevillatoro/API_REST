@@ -4,13 +4,14 @@ import "./Banner.css";
 function Banner() {
     return (
         <header className="header">
-        <div className="header-content">
-            <div className="left-content">
-            <h1>ECOMMERCE</h1>
-            <p>Tu estilo, tu elección, tu tienda</p>
-            <button className="explore-button">Explorar más</button>
-            </div>
-        </div>
+        <div className="banner">
+            <div className="capa"></div>
+            <div className="info">
+                <h1>ECOMMERCE</h1>
+                <p>Tu estilo, tu elección, tu tienda</p>
+                <a href="#">Explorar más</a>
+		</div>
+	</div>
     </header>
     );
 }

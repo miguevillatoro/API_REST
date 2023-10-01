@@ -1,18 +1,12 @@
-/* import React from "react";
-
-const Home = () => {
-    return (
-        <div>Home</div>
-    )
-}
-
-export default Home; */
-
 import React from 'react';
 import './Home.css';
 import Banner from "../Banner/Banner";
 import Products from "../Products/Products";
 import Categorias from "../Categorias/Categorias";
+import BannerPublicidad from "../BannerPublicitario/BannerPublicitario";
+import Brands from "../Brands/Brands";
+
+
 function Home() {
     return (
         <div className="home">
@@ -20,8 +14,10 @@ function Home() {
             <div className="hero">
                 <h2>Categorías</h2>
                 <Categorias/>
+                <Brands/>
             </div>
             <Products/>
+            <BannerPublicidad/>
         </div>
         
     );
