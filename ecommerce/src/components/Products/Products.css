@@ -43,10 +43,14 @@
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
+    text-decoration: none;
+    display: block;
+    color: black;
 }
 
 .price {
     font-weight: 500;
+    color: black;
 }
 
 .add-cart {

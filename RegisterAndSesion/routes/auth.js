@@ -28,7 +28,7 @@ router.post('/login', async (req, res) => {
     const validPassword = await bcrypt.compare(req.body.password, user.password);
     if (!validPassword) return res.status(400).json({ error: 'contraseña no válida' })
 
-    // create token
+    // Token
     const token = jwt.sign({
         name: user.name,
         id: user._id
@@ -44,7 +44,7 @@ router.post('/login', async (req, res) => {
 
 router.post('/register', async (req, res) => {
 
-    // validate user
+    // Validate user
     const {error} = schemaRegister.validate(req.body)
     if (error) {
         return res.status(400).json(
@@ -58,13 +58,10 @@ router.post('/register', async (req, res) => {
             {error: true, mensaje:'Email ya registrado'}
         )
     }
-    //-------------------------------------------------------------------------
 
-    // hash contraseña
+    // Hash contraseña
     const salt = await bcrypt.genSalt(10);
     const password = await bcrypt.hash(req.body.password, salt);
-
-    //-------------------------------
 
     const user = new User({
         name: req.body.name,

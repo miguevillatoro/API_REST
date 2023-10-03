@@ -1,0 +1,33 @@
+.content-filter {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 20px;
+}
+
+.filter {
+    background-color: #d4d0e7;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    color: black;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.title-filter {
+    color: #171427;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 20px;
+}

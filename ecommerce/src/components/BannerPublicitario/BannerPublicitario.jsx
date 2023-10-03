@@ -5,8 +5,8 @@ function BannerPublicitario() {
     return (
         <div className="publicidad-container">  
             <div className="publicidad">
-                <div className="shoe">
-                    <img src="/src/img/shoe.png" alt=""/>
+                <div className="oferta">
+                    <img src="/src/img/Blouse.png" alt=""/>
                 </div>
                 <div className="content-publicidad">
                     <span>HASTA</span>
@@ -15,7 +15,7 @@ function BannerPublicitario() {
                     <a href="#" className="btn">Ver oferta</a>
                 </div>
                 <div className="women">
-                    <img src="/src/img/women.png" alt=""/>
+                    <img src="/src/img/Women.png" alt=""/>
                 </div>
             </div>
         </div>

@@ -1,0 +1,29 @@
+.acerca-de-nosotros {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.m-nosotros {
+    margin: 1.5rem;
+}
+
+.acerca-de-nosotros h2 {
+    color: #171427;
+    margin-bottom: 20px;
+}
+
+.acerca-de-nosotros p {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.acerca-de-nosotros ul {
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}

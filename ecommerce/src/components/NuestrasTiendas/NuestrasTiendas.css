@@ -1,0 +1,42 @@
+.nuestras-tiendas {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.cont-tiendas {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.nuestras-tiendas h2 {
+    color: #007bff;
+    margin-bottom: 1.5rem;
+}
+
+.tiendas-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tienda {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #333;
+}
+
+p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .tiendas-grid {
+        grid-template-columns: 1fr;
+    }
+}

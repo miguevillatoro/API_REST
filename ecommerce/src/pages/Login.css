@@ -4,9 +4,7 @@
     align-items: center;
     min-height: 100vh;
     background: #171427;
-    /* background: url('src/img/sesion.jpg') no-repeat;
-    background-size: cover;
-    background-position: center; */
+    margin-top: 2.5rem;
 }
 
 .wrapper {

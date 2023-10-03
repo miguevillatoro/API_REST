@@ -5,7 +5,6 @@ function ProductDetails() {
         const [quantity, setQuantity] = useState(1);
 
         const handleQuantityChange = (event) => {
-            // Aquí puedes agregar validación si es necesario para asegurarte de que la cantidad sea un número válido.
             setQuantity(event.target.value);
         };
 
@@ -51,31 +50,31 @@ function ProductDetails() {
                     <div className="product-imgs">
                         <div className="img-display">
                         <div className="img-showcase" ref={imgShowcaseRef}>
-                            <img src="src/img/Product-1.jpg" alt="shoe image" />
-                            <img src="src/img/Product-2.jpg" alt="shoe image" />
-                            <img src="src/img/Product-3.jpg" alt="shoe image" />
-                            <img src="src/img/Product-4.jpg" alt="shoe image" />
+                            <img src="src/img/Product-1.jpg" alt="sueter" />
+                            <img src="src/img/Product-1 1.jpg" alt="sueter" />
+                            <img src="src/img/Product-1 2.jpg" alt="sueter" />
+                            <img src="src/img/Product-1 3.jpg" alt="sueter" />
                         </div>
                         </div>
                         <div className="img-select">
                         <div className="img-item">
                             <a href="#" data-id="1" onClick={(event) => handleImageClick(event, 1)}>
-                            <img src="src/img/Product-1.jpg" alt="shoe image" />
+                            <img src="src/img/Product-1.jpg" alt="sueter" />
                             </a>
                         </div>
                         <div className="img-item">
                             <a href="#" data-id="2" onClick={(event) => handleImageClick(event, 2)}>
-                            <img src="src/img/Product-2.jpg" alt="shoe image" />
+                            <img src="src/img/Product-1 1.jpg" alt="sueter" />
                             </a>
                         </div>
                         <div className="img-item">
                             <a href="#" data-id="3" onClick={(event) => handleImageClick(event, 3)}>
-                            <img src="src/img/Product-3.jpg" alt="shoe image" />
+                            <img src="src/img/Product-1 2.jpg" alt="sueter" />
                             </a>
                         </div>
                         <div className="img-item">
                             <a href="#" data-id="4" onClick={(event) => handleImageClick(event, 4)}>
-                            <img src="src/img/Product-4.jpg" alt="shoe image" />
+                            <img src="src/img/Product-1 3.jpg" alt="sueter" />
                             </a>
                         </div>
                     </div>
@@ -97,8 +96,7 @@ function ProductDetails() {
                     </div>
                     <div className = "product-detail">
                         <h2>Detalles: </h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet veniam tempora fuga tenetur placeat sapiente architecto illum soluta consequuntur, aspernatur quidem at sequi ipsa!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde.</p>
+                        <p>Este elegante suéter de mujer combina la calidez y la moda en una prenda excepcional. Con una paleta de colores vibrante y atractiva, este suéter es una elección perfecta para añadir un toque de estilo a tu guardarropa de invierno.</p>
                         <ul>
                         <li>Color: <span>Negro, amarillo y blaco</span></li>
                         <li>Disponible: <span>en stock</span></li>

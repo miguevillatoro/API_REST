@@ -29,13 +29,13 @@
     overflow: hidden;
 }
 
-.publicidad-container .publicidad .shoe {
+.publicidad-container .publicidad .oferta {
     flex: 1 1 250px;
     padding: 15px;
     text-align: center;
 }
 
-.publicidad-container .publicidad .shoe img {
+.publicidad-container .publicidad .oferta img {
     width: 80%;
 }
 
@@ -68,8 +68,9 @@
     width: 150px;
     line-height: 40px;
     background: #fff;
-    color: #d63031;
+    color: #171427;
     font-weight: bold;
+    border-radius: 8px;
     margin: 5px auto;
     text-decoration: none;
 }

@@ -5,12 +5,23 @@ import {
 } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Products from "./components/Products/Products";
-import Product from "./components/Product/Product";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
 import ProductDetails from "./pages/ProductDetails";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import ProductFilter from "./components/ProductFilter/ProductFilter";
+import AcercaDeNosotros from "./components/Acerca de nosotros/AcercaDeNosotros";
+import NuestrasTiendas from "./components/NuestrasTiendas/NuestrasTiendas";
+import WomenProducts from "./components/Products/WomenProducts";
+import MenProducts from "./components/Products/MenProducts";
+import GirlsProducts from "./components/Products/GirlsProducts";
+import BoysProducts from "./components/Products/BoysProducts";
+import WomenFilter from "./components/ProductFilter/WomenFilter";
+import MenFilter from "./components/ProductFilter/MenFilter";
+import GirlsFilter from "./components/ProductFilter/GirlsFilter";
+import BoysFilter from "./components/ProductFilter/BoysFilter";
+
 import "./app.css";
 
 const Layout = () => {
@@ -37,10 +48,6 @@ const router = createBrowserRouter ([
         element:<Products/>
       },
       {
-        path:"/product/:id",
-        element:<Product/>
-      },
-      {
         path:"/productdetails",
         element:<ProductDetails/>
       },
@@ -51,6 +58,50 @@ const router = createBrowserRouter ([
       {
         path:"/register",
         element:<Register/>
+      },
+      {
+        path:"/productfilter",
+        element:<ProductFilter/>
+      },
+      {
+        path:"/nosotros",
+        element:<AcercaDeNosotros/>
+      },
+      {
+        path:"/nuestrastiendas",
+        element:<NuestrasTiendas/>
+      },
+      {
+        path:"/womenproducts",
+        element:<WomenProducts/>
+      },
+      {
+        path:"/menproducts",
+        element:<MenProducts/>
+      },
+      {
+        path:"/girlsproducts",
+        element:<GirlsProducts/>
+      },
+      {
+        path:"/boysproducts",
+        element:<BoysProducts/>
+      },
+      {
+        path:"/womenfilter",
+        element:<WomenFilter/>
+      },
+      {
+        path:"/menfilter",
+        element:<MenFilter/>
+      },
+      {
+        path:"/girlsfilter",
+        element:<GirlsFilter/>
+      },
+      {
+        path:"/boysfilter",
+        element:<BoysFilter/>
       },
     ]
   },

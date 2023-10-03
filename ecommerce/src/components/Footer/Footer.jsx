@@ -26,16 +26,16 @@ function Footer() {
             
             <div className="categorias-footer">
                 <h1 className="title-fprin">INFORMACIÓN</h1>
-                <a href="#" className="categorias-info">Acerca de nosotros</a>     
-                <a href="#" className="categorias-info">Nuestras tiendas</a>
+                <a href="/nosotros" className="categorias-info">Acerca de nosotros</a>     
+                <a href="nuestrastiendas" className="categorias-info">Nuestras tiendas</a>
                 <a href="#" className="categorias-info">Preguntas frecuente</a> 
             </div>
     
             <div className="categorias-footer">
                 <h1 className="title-fprin">CATEGORÍAS</h1>
-                <a href="shoeswomen.html" className="categorias-info">Mujer</a>             
-                <a href="manshoes.html" className="categorias-info">Hombre</a>
-                <a href="kidsshoes.html" className="categorias-info">Niños/as</a>
+                <a href="/womenproducts" className="categorias-info">Mujer</a>             
+                <a href="/menproducts" className="categorias-info">Hombre</a>
+                <a href="/girlsproducts" className="categorias-info">Niña</a>
             </div>
             
             <div className="categorias-footer">

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Categorias.css";
+import {Link} from "react-router-dom"
 
 const Categorias = () => {
     return (
@@ -8,25 +9,25 @@ const Categorias = () => {
                 
                 <div className="product-box">
                     <img src="src/img/Mujer.jpg" alt="" className="product-img"/>
-                    <h2 className="product-title">Mujer</h2>
+                    <Link className="product-title" to="/womenproducts">Mujer</Link>
                 </div>
 
                 
                 <div className="product-box">
                     <img src="src/img/Hombre.jpg" alt="" className="product-img"/>
-                    <h2 className="product-title">Hombre</h2>
+                    <Link className="product-title" to="/menproducts">Hombre</Link>
                 </div>
 
                 
                 <div className="product-box">
                     <img src="src/img/Niña.jpg" alt="" className="product-img"/>
-                    <h2 className="product-title">Niña</h2>
+                    <Link className="product-title" to="/girlsproducts">Niña</Link>
                 </div>
 
             
                 <div className="product-box">
                     <img src="src/img/Niño.jpg" alt="" className="product-img"/>
-                    <h2 className="product-title">Niño</h2>
+                    <Link className="product-title" to="/boysproducts">Niño</Link>
                 </div>
             </div>
         </section>

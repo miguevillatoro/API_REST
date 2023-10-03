@@ -9,7 +9,7 @@ function Banner() {
             <div className="info">
                 <h1>ECOMMERCE</h1>
                 <p>Tu estilo, tu elección, tu tienda</p>
-                <a href="#">Explorar más</a>
+                <a href="productfilter">Explorar más</a>
 		</div>
 	</div>
     </header>

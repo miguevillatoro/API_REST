@@ -5,14 +5,21 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
 }
 
 .logo {
     flex: 1;
 }
 
-.logo h1 {
+.logo .Link-Logo {
     font-size: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .right-side {
@@ -26,9 +33,11 @@ nav {
     margin-right: 20px;
 }
 
-.categorias li {
+.categorias .Link-menu {
     margin-right: 20px;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .buscador input[type="text"] {
@@ -56,7 +65,7 @@ nav {
 
 .bi-person-fill {
     font-size: 25px;
-} 
+}
 
 .bi-cart4 {
     font-size: 25px;

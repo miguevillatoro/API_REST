@@ -2,7 +2,7 @@ import React from "react";
 import "./Products.css";
 import {Link} from "react-router-dom";
 
-const Products = () => {
+const WomenProducts = () => {
     return (
         <section className="shop container section">
             <h2 className="section-title">Productos Recientes</h2>
@@ -25,8 +25,8 @@ const Products = () => {
 
                 
                 <div className="product-box">
-                    <img src="src/img/product-9.jpg" alt="" className="product-img"/>
-                    <h2 className="product-title">Sudadera</h2>
+                    <img src="src/img/product-10.jpg" alt="" className="product-img"/>
+                    <h2 className="product-title">Vestido</h2>
                     <span className="price">$45</span>
                     <i className="bi bi-bag add-cart"></i>
                 </div>
@@ -56,16 +56,16 @@ const Products = () => {
                 </div>
 
                 <div className="product-box">
-                    <img src="src/img/product-7.jpg" alt="" className="product-img"/>
-                    <h2 className="product-title">Camisa</h2>
-                    <span className="price">$70</span>
+                    <img src="src/img/product-13.jpg" alt="" className="product-img"/>
+                    <h2 className="product-title">Falda</h2>
+                    <span className="price">$30</span>
                     <i className="bi bi-bag add-cart"></i>
                 </div>
 
                 <div className="product-box">
-                    <img src="src/img/product-8.jpg" alt="" className="product-img"/>
-                    <h2 className="product-title">Pantalón</h2>
-                    <span className="price">$45</span>
+                    <img src="src/img/product-15.jpg" alt="" className="product-img"/>
+                    <h2 className="product-title">Blusa</h2>
+                    <span className="price">$25</span>
                     <i className="bi bi-bag add-cart"></i>
                 </div>
             </div>
@@ -73,4 +73,4 @@ const Products = () => {
     )
 }
 
-export default Products;
+export default WomenProducts;
