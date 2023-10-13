@@ -25,16 +25,14 @@ const Register = () => {
         try {
             const response = await axios.post("http://localhost:3001/api/user/register", formData);
             console.log("Registro exitoso:", response.data);
-            setIsRegistered(true); // Mostrar el alert en caso de registro exitoso
+            setIsRegistered(true); 
         } catch (error) {
             console.error("Error al registrar:", error);
 
-            // Imprimir más detalles sobre el error
             if (error.response) {
                 console.error("Respuesta de error:", error.response.data);
             }
 
-            // También puedes imprimir el status code para obtener más información
             console.error("Código de estado:", error.response?.status);
         }
     };
@@ -85,7 +83,6 @@ const Register = () => {
                     <button type="submit" className="btn">
                         Registrarme
                     </button>
-
                     <div className="sesion-link">
                         <p>¿Ya tienes una cuenta? <a href="/login">Inicia sesión</a></p>
                     </div>

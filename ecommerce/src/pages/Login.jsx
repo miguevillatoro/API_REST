@@ -22,21 +22,15 @@ const Login = () => {
         try {
             const response = await axios.post("http://localhost:3001/api/user/login", formData);
 
-            // Aquí asumimos que el servidor devuelve una propiedad "isAdmin" en la respuesta
             const isAdmin = response.data.isAdmin;
-
-            // Manejar la respuesta aquí, por ejemplo, guardar el token de autenticación en el almacenamiento local.
             console.log("Respuesta:", response.data);
 
             if (isAdmin) {
-                // Redirige al usuario administrador a la página de administrador después del inicio de sesión
                 window.location.href = "/admindashboard";
             } else {
-                // Redirige al usuario normal a su página después del inicio de sesión
                 window.location.href = "/userdashboard";
             }
         } catch (error) {
-            // Manejar errores aquí, por ejemplo, mostrar un mensaje de error al usuario.
             console.error("Error:", error);
         }
     };
