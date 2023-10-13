@@ -21,6 +21,8 @@ import WomenFilter from "./components/ProductFilter/WomenFilter";
 import MenFilter from "./components/ProductFilter/MenFilter";
 import GirlsFilter from "./components/ProductFilter/GirlsFilter";
 import BoysFilter from "./components/ProductFilter/BoysFilter";
+import AdminDashboard from "./components/Dashboard/AdminDashboard";
+import UserDashboard from "./components/Dashboard/UserDashboard";
 
 import "./app.css";
 
@@ -102,6 +104,14 @@ const router = createBrowserRouter ([
       {
         path:"/boysfilter",
         element:<BoysFilter/>
+      },
+      {
+        path:"/admindashboard",
+        element:<AdminDashboard/>
+      },
+      {
+        path:"/userdashboard",
+        element:<UserDashboard/>
       },
     ]
   },

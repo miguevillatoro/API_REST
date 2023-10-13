@@ -1,0 +1,116 @@
+/* Estilos para el contenedor principal */
+.admin-dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+.title-dash {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el formulario de agregar producto */
+.product-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.iput-dash {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btndash {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilos para la lista de productos */
+.product-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: black;
+}
+
+th {
+    background-color: #f5f5f5;
+}
+
+/* Estilos para los botones de acción */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para botones de guardar y cancelar en modo edición */
+button.secondary {
+    background-color: #ccc;
+}
+
+/* Estilos para confirmación de eliminación */
+.confirmation {
+    color: red;
+    font-weight: bold;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.personal-info,
+.recent-activities {
+    width: 45%;
+}
+
+.personal-info {
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.recent-activities ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-activities li {
+    margin-bottom: 20px;
+}
+
+.recent-activities li p {
+    margin: 5px 0;
+}
+
+h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Agrega más estilos según sea necesario */
