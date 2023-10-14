@@ -16,9 +16,9 @@
 
 ### 🎨 INTERFAZ
 
-![img](/Desing/Banner.PNG)
-![img](/Desing/Categorias.PNG)
-![img](/Desing/Productos.PNG)
-![img](/Desing/Recientes.PNG)
-![img](/Desing/Publicidad.PNG)
-![img](/Desing/Footer.PNG)
+![img](./Desing/Banner.png)
+![img](./Desing/Categorias.png)
+![img](./Desing/Productos.png)
+![img](./Desing/Recientes.png)
+![img](./Desing/Publicidad.png)
+![img](./Desing/Footer.png)
